@@ -7,7 +7,6 @@ _site
 .ruby-version
 .tweet-cache
 .Rhistory
-Gemfile.lock
 vendor
 
 .Rproj.user
