@@ -9,7 +9,7 @@ _site
 .Rhistory
 vendor
 
- _projects/teaching/*
+_projects/teaching/*
 
 .Rproj.user
 *.icloud
