@@ -25,6 +25,7 @@ jobs:
 
     - name: Update RubyGems
       run: gem update --system
+      run: gem --version #verify RubyGems version
 
     - name: Install dependencies
       run: |
