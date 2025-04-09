@@ -16,10 +16,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-
-    - name: Add x86_64-linux platform to Gemfile.lock
-      run: bundle lock --add-platform x86_64-linux
-
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
